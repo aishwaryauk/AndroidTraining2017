@@ -1,0 +1,48 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/aukbuttons"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/bcolor"
+        android:textSize="20sp"
+        android:background="#7373ec"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE COLOR" />
+
+    <Button
+        android:id="@+id/bimage"
+        android:background="#ef6d6d"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE BACKGROUND" />
+
+    <Button
+        android:id="@+id/btext"
+        android:textSize="20sp"
+        android:background="#56f170"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE TEXT" />
+
+    <Button
+        android:id="@+id/bdisappear"
+        android:textSize="20sp"
+        android:background="#d79a24"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISAPPEAR" />
+</LinearLayout>

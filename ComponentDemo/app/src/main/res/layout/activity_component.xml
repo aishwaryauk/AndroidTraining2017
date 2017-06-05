@@ -1,0 +1,20 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBox
+        android:text="I agree"
+        android:id="@+id/cbia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="gone"
+        android:text="LOGIN"
+        android:id="@+id/blogin"
+        android:layout_below="@+id/cbia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
